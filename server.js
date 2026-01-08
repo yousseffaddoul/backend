@@ -6,7 +6,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const app = express();
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://boisterous-entremet-487825.netlify.app" }));
 app.use(express.json());
 
 // MySQL connection
